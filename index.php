@@ -29,14 +29,21 @@ $database = [
         'title' => 'Brave new World',
         'author' => 'Iron Maiden',
         'year' => 2000,
-        'poster' => 'https://i.ebayimg.com/images/g/1GwAAOSwFytaKr7l/s-l300.jpg'
+        'poster' => 'https://images-na.ssl-images-amazon.com/images/I/411BQR6BHRL.jpg'
     ],
     [
         'title' => 'One more car, one more rider',
         'author' => 'Eric Clapton',
         'year' => 2002,
         'poster' => 'https://images-na.ssl-images-amazon.com/images/I/81MDAIdh78L._SY355_.jpg'
-    ]
+    ],
+    [
+        'title' => 'New Jersey',
+        'author' => 'Bon Jovi',
+        'year' => 1988,
+        'poster' => 'https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg'
+    ],
+
 ];
 
 // var_dump ($database);
@@ -69,14 +76,14 @@ $database = [
     <header>
         <img class="logo" src="./img/spotify-logo.png" alt="">
     </header>
-    
+
     <main>
         <container class="box">
             <?php foreach ($database as $valore) { ?>
                 <!-- <p><?php echo "{$valore["title"]} {$valore["author"]} {$valore["year"]} {$valore["poster"]}"; ?></p> -->
 
                 <div class="imaginiAlbum">
-                    <img class="album" src="<?php echo "{$valore["poster"]}" ?>" alt="">
+                    <span class="bkgSquare"><img class="album" src="<?php echo "{$valore["poster"]}" ?>" alt=""></span>
                     <h3 class="titolo"><?php echo "{$valore["title"]}" ?></h3>
                     <p><?php echo "{$valore["author"]}" ?></p>
                     <p><?php echo "{$valore["year"]}" ?></p>
