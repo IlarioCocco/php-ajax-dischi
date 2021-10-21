@@ -72,7 +72,7 @@ $database = [
     <main>
         <container class="box">
             <?php foreach ($database as $valore) { ?>
-                <p><?php echo "{$valore["title"]} {$valore["author"]} {$valore["year"]} {$valore["poster"]}"; ?></p>
+                <!-- <p><?php echo "{$valore["title"]} {$valore["author"]} {$valore["year"]} {$valore["poster"]}"; ?></p> -->
 
                 <div class="imaginiAlbum">
                     <img src="<?php echo "{$valore["poster"]}" ?>" alt="">
