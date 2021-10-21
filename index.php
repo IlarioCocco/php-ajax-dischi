@@ -71,19 +71,20 @@ $database = [
     </header>
     <main>
         <container class="box">
-            <ul>
-                <h2>
-                    <?php foreach ($database as $valore) { ?>
-                        <li>
-                            <p><?php echo "{$valore["title"]} {$valore["author"]} {$valore["year"]} {$valore["poster"]}"; ?></p>
-                        </li>
-                    <?php } ?>
-                </h2>
-            </ul>
+            <?php foreach ($database as $valore) { ?>
+                
+                <p><?php echo "{$valore["title"]} {$valore["author"]} {$valore["year"]} {$valore["poster"]}"; ?></p>
+
+                <div class="">
+                    <img  src="<?php echo "{$valore["poster"]}"?>" alt="">
+                    <h3><?php echo "{$valore["title"]}"?></h3>
+                </div>
+               
+            <?php } ?>
         </container>
     </main>
+
     <footer>
-        <h3>Footer</h3>
     </footer>
 
 </body>
