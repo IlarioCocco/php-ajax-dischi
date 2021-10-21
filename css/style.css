@@ -11,7 +11,7 @@ body {
 
 header{
     padding: 10px;
-    background-color: rgb(204, 204, 204);
+    background-color: #2e3a46;
     position: fixed;
     width: 100%;
 }
@@ -22,9 +22,25 @@ header{
 
 .box {
     padding: 100px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #1e2d3b;
+    height: 100vh;
+
 }
 
 .imaginiAlbum {
-    margin: 50px;
+    margin: 30px;
+    text-align: center;
+}
+
+.album {
+    width: 150px;
+}
+
+.titolo {
+    width: 135px;
+    padding: 15px;
+    color: white;
+   
 }
