@@ -11,39 +11,36 @@ body {
 
 p  {
     color:gray;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
 }
 
 .artist {
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 header{
-    padding: 10px;
+    padding: 5px;
     background-color: #2e3a46;
     position: fixed;
     width: 100%;
 }
 
 .logo {
-    width: 60px;
+    width: 40px;
 }
 
 .box {
-    padding: 100px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px;
     background-color: #1e2d3b;
-    height: 100vh;
-    max-width: 100%;
-    margin: auto;
 }
 
 .imaginiAlbum {
-    margin: 10px;
     text-align: center;
-    margin-top: 40px;
+    width: calc(20% - 35px);
 }
 
 .album {
@@ -51,16 +48,16 @@ header{
 }
 
 .titolo {
-    width: 135px;
-    padding: 10px;
+    padding: 30px;
+    padding-top: 20px;
     color: white;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 11px;
 }
 
 .bkgSquare{
     background: #2e3a46;
-    padding: 15px;
-    padding-top: 100px;
-    padding-bottom: 125px;
+    padding: 13px;
+    padding-top: 95px;
+    padding-bottom: 110px;
 }

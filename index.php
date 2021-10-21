@@ -43,6 +43,24 @@ $database = [
         'year' => 1988,
         'poster' => 'https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg'
     ],
+    [
+        'title' => 'Brave new World',
+        'author' => 'Iron Maiden',
+        'year' => 2000,
+        'poster' => 'https://images-na.ssl-images-amazon.com/images/I/411BQR6BHRL.jpg'
+    ],
+    [
+        'title' => 'One more car, one more rider',
+        'author' => 'Eric Clapton',
+        'year' => 2002,
+        'poster' => 'https://images-na.ssl-images-amazon.com/images/I/81MDAIdh78L._SY355_.jpg'
+    ],
+    [
+        'title' => 'New Jersey',
+        'author' => 'Bon Jovi',
+        'year' => 1988,
+        'poster' => 'https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg'
+    ],
 
 ];
 
@@ -83,10 +101,14 @@ $database = [
                 <!-- <p><?php echo "{$valore["title"]} {$valore["author"]} {$valore["year"]} {$valore["poster"]}"; ?></p> -->
 
                 <div class="imaginiAlbum">
+                    
                     <span class="bkgSquare"><img class="album" src="<?php echo "{$valore["poster"]}" ?>" alt=""></span>
-                    <h3 class="titolo"><?php echo "{$valore["title"]}" ?></h3>
-                    <p class="artist"><?php echo "{$valore["author"]}" ?></p>
-                    <p><?php echo "{$valore["year"]}" ?></p>
+                    <div class="titolo">
+                        <h3><?php echo "{$valore["title"]}" ?></h3>
+                        <p class="artist"><?php echo "{$valore["author"]}" ?></p>
+                        <p><?php echo "{$valore["year"]}" ?></p>
+                    </div>
+
                 </div>
 
             <?php } ?>
