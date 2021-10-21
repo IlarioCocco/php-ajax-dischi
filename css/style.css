@@ -34,8 +34,10 @@ header{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 100px;
+    height: 100vh;
+    padding: 90px;
     background-color: #1e2d3b;
+   
 }
 
 .imaginiAlbum {
@@ -48,7 +50,7 @@ header{
 }
 
 .titolo {
-    padding: 30px;
+    padding: 35px;
     padding-top: 20px;
     color: white;
     text-transform: uppercase;
