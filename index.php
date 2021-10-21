@@ -85,7 +85,7 @@ $database = [
                 <div class="imaginiAlbum">
                     <span class="bkgSquare"><img class="album" src="<?php echo "{$valore["poster"]}" ?>" alt=""></span>
                     <h3 class="titolo"><?php echo "{$valore["title"]}" ?></h3>
-                    <p><?php echo "{$valore["author"]}" ?></p>
+                    <p class="artist"><?php echo "{$valore["author"]}" ?></p>
                     <p><?php echo "{$valore["year"]}" ?></p>
                 </div>
 
