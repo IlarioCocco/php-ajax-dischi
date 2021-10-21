@@ -26,7 +26,6 @@ header{
     justify-content: center;
     background-color: #1e2d3b;
     height: 100vh;
-
 }
 
 .imaginiAlbum {
@@ -42,5 +41,4 @@ header{
     width: 135px;
     padding: 15px;
     color: white;
-   
 }
