@@ -9,19 +9,22 @@ body {
         sans-serif;
 }
 
-.box {
-     padding: 20px;
-     max-width: 55%;
-     margin: auto;
-}
-
 header{
     padding: 10px;
     background-color: rgb(204, 204, 204);
     position: fixed;
+    width: 100%;
 }
 
 .logo {
     width: 60px;
- 
+}
+
+.box {
+    padding: 100px;
+    margin: auto;
+}
+
+.imaginiAlbum {
+    margin: 50px;
 }
