@@ -38,6 +38,8 @@ header{
     background-color: #1e2d3b;
     padding-top: 100px;
     height: 100vh;
+    width: calc(20% - 40px);
+    width: 100%;
 }
 
 .imaginiAlbum {
@@ -64,4 +66,5 @@ header{
     padding: 12px;
     padding-top: 95px;
     padding-bottom: 115px;
+      
 }
