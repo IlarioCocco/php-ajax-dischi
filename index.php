@@ -22,7 +22,7 @@
                     "year" => "1993"
                 ],
                 [
-                    "poster" => "https://cdn2.jazztimes.com/2018/05/SteveGadd-800x723.jpg",
+                    "poster" => "https://images-na.ssl-images-amazon.com/images/I/81r3FVfNG3L._SY355_.jpg",
                     "title" => "Steve Gadd Band",
                     "author" => "Steve Gadd Band",
                     "genre" => "Jazz",
