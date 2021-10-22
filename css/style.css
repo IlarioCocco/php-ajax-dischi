@@ -31,6 +31,14 @@ header{
     width: 40px;
 }
 
+
+
+
+main {
+    background-color: #bfbdbe;
+}
+
+
 .box {
     display: flex;
     justify-content: center;
@@ -38,18 +46,24 @@ header{
     background-color: #1e2d3b;
     padding-top: 100px;
     height: 100vh;
-    width: calc(20% - 40px);
-    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+    border: 3px solid rgb(255, 0, 0);
 }
+
+
 
 .imaginiAlbum {
     text-align: center;
     width: calc(20% - 40px);
     padding: 5px;
+    background: #2e3a46;
+    margin: 20px;
+    padding: 15px;
 }
 
 .album {
-    width: 100px;
+    width: 100%;
 }
 
 .titolo {
@@ -59,12 +73,4 @@ header{
     font-size: 12px;
     max-width: 100px;
     margin: auto;
-}
-
-.bkgSquare{
-    background: #2e3a46;
-    padding: 12px;
-    padding-top: 95px;
-    padding-bottom: 115px;
-      
 }
