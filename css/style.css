@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+
+/* common */
 body {
     font-family: 'Open Sans',
         sans-serif;
@@ -15,11 +17,8 @@ p {
     font-weight: bold;
 }
 
-.artist {
-    margin-top: 10px;
-}
 
-
+/* header section */
 header{
     padding: 5px;
     background-color: #2e3a46;
@@ -32,12 +31,10 @@ header{
 }
 
 
-
-
+/* main section */
 main {
-    background-color: #bfbdbe;
+     background-color: #1e2d3b;
 }
-
 
 .box {
     display: flex;
@@ -45,13 +42,11 @@ main {
     flex-wrap: wrap;
     background-color: #1e2d3b;
     padding-top: 100px;
-    height: 100vh;
+    /* height: 100vh; */
     max-width: 70%;
     margin: 0 auto;
-    border: 3px solid rgb(255, 0, 0);
+    /* border: 3px solid rgb(255, 0, 0); */
 }
-
-
 
 .imaginiAlbum {
     text-align: center;
@@ -59,7 +54,8 @@ main {
     padding: 5px;
     background: #2e3a46;
     margin: 20px;
-    padding: 15px;
+    padding: 13px;
+    padding-bottom: 20px;
 }
 
 .album {

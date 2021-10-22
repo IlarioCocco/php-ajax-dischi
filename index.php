@@ -22,7 +22,7 @@ $database = [
         "year" => "1993"
     ],
     [
-        "poster" => "https://images-na.ssl-images-amazon.com/images/I/81r3FVfNG3L._SY355_.jpg",
+        "poster" => "https://cdn2.jazztimes.com/2018/05/SteveGadd-800x723.jpg",
         "title" => "Steve Gadd Band",
         "author" => "Steve Gadd Band",
         "genre" => "Jazz",
@@ -100,33 +100,8 @@ $database = [
 </head>
 
 <body>
-    <header>
-        <img class="logo" src="./img/spotify-logo.png" alt="">
-    </header>
-
-    <main>
-        <container class="box">
-            <?php foreach ($database as $valore) { ?>
-                <!-- <p><?php echo "{$valore["title"]} {$valore["author"]} {$valore["year"]} {$valore["poster"]}"; ?></p> -->
-
-                <div class="imaginiAlbum">
-
-                    <img class="album" src="<?php echo "{$valore["poster"]}" ?>" alt="">
-                    <div>
-                        <h3 class="titolo"><?php echo "{$valore["title"]}" ?></h3>
-                        <p class="artist"><?php echo "{$valore["author"]}" ?></p>
-                        <p><?php echo "{$valore["year"]}" ?></p>
-                    </div>
-
-                </div>
-
-            <?php } ?>
-        </container>
-    </main>
-
-    <footer>
-    </footer>
-
+    <?php include "./template/header.php" ?>
+    <?php include "./template/main.php" ?>
 </body>
 
 </html>
