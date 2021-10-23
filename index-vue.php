@@ -7,10 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vue-php</title>
 </head>
+
 <body>
 
     <div id="root">
-      
+        <h3>version Vue Js</h3>
+        <ul>
+            <li v-for="(todo, index) in database" :key="index">
+                {{todo.genre}}
+            </li>
+        </ul>
+
     </div>
 
     <!-- axios -->
@@ -24,4 +31,5 @@
     <!-- /vue js -->
     <script src="js/main.js"></script>
 </body>
+
 </html>
