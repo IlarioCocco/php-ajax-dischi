@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vue-php</title>
 </head>
-
 <body>
 
     <div id="root">
@@ -32,5 +31,4 @@
     <!-- /vue js -->
     <script src="js/main.js"></script>
 </body>
-
 </html>
