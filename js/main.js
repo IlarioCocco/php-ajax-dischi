@@ -1,7 +1,8 @@
 const app = new Vue({
     el: '#root',
     data: {
-        database: null
+        database: null,
+        genreSelected: "",
     },
     created() {
         axios.get("http://localhost/php-ajax-dischi/api/index.php")
@@ -10,7 +11,21 @@ const app = new Vue({
         })
         .catch(function(error) {
             console.log(error);
-            alert("stai attento! errore");
         })
-    }     
+    },
+    methods: {
+            genreMusicSelected() {
+                axios.get("http://localhost/php-ajax-dischi/api/index.php", {
+                params: {
+                    "genre": this.genreMusic
+                }
+            })
+            .then((response) => {
+                this.database = response.data;
+            })
+            .catch(function(error) {
+                console.log(error);
+            });
+        }
+    }    
 });
