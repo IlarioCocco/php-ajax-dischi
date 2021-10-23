@@ -41,11 +41,12 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     background-color: #1e2d3b;
-    padding-top: 100px;
-    /* height: 100vh; */
+    padding-top: 40px;
+    height: 100vh;
     max-width: 70%;
     margin: 0 auto;
-    /* border: 3px solid rgb(255, 0, 0); */
+    
+    /* border: 1px solid rgb(255, 0, 0); */
 }
 
 .imaginiAlbum {
@@ -53,9 +54,8 @@ main {
     width: calc(20% - 40px);
     padding: 5px;
     background: #2e3a46;
-    margin: 20px;
-    padding: 13px;
-    padding-bottom: 20px;
+    margin: 10px;
+    padding: 15px;
 }
 
 .album {
@@ -63,10 +63,12 @@ main {
 }
 
 .titolo {
-    padding: 10px;
+    padding: 15px;
     color: white;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 11px;
     max-width: 100px;
-    margin: auto;
+    margin:0 auto;
 }
+
+

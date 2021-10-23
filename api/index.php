@@ -1,7 +1,9 @@
 <?php
-require __DIR__ . "/database.php";
+// phpinfo();
+require __DIR__ . "/../database.php";
 // var_dump ($database);
 //il var_dump si utilizza per vedere il tipo di dato(array)
+//require interrompe tutto il programma generando un fatal error
 ?>
 
 <!DOCTYPE html>
@@ -27,10 +29,16 @@ require __DIR__ . "/database.php";
 
 <body>
     <?php include __DIR__ . "/template/header.php"; ?>
-
     <?php include __DIR__ . "/template/main.php"; ?>
     <!-- echo __DIR__;die; ?> utilizzato in debug per verificare il percorso dei file/cartelle -->
     <!-- C:\Users\lallo\OneDrive\Desktop\boolean 2021\esercizi\php-ajax-dischi esempio percorso-->
+    <!-- include genera un warning interrompendo solo una parte specifica del programma -->
+
+    <!-- <?php include __DIR__ . "/partialsFunctions/functions.php";
+    echo somma(12, 3); ?> -->
+
+    <footer>
+    </footer>
 </body>
 
 </html>
