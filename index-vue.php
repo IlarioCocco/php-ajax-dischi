@@ -16,6 +16,7 @@
             <li v-for="(todo, index) in database" :key="index">
                 {{todo.genre}}
             </li>
+            
         </ul>
 
     </div>
