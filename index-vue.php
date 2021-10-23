@@ -5,30 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vue-php</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- style css -->
+    <title>php-ajax-dischi Version vue-php</title>
 </head>
+
 <body>
-
     <div id="root">
-        <h3>version Vue Js</h3>
-        <ul>
-            <li v-for="(todo, index) in database" :key="index">
-                {{todo.genre}}
-            </li>
-            
-        </ul>
-
+        <header>
+            <img class="logo" src="./img/spotify-logo.png" alt="logo">
+        </header>
+        <main class="genre">
+            <container class="box">
+                <div class="imaginAlbum" v-for="(todo, index) in database" :key="index">
+                    <img class="album" src="" alt="">
+                    <h3>{{todo.title}}</h3>
+                    <p>{{todo.author}}</p>
+                    <p>{{todo.year}}</p>
+                    <p>{{todo.genre}}</p>
+                </div>
+            </container>
+        </main>
     </div>
-
-    <!-- axios -->
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <!-- axios -->
-    <!-- browser -->
-    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
-    <!-- browser -->
-    <!-- vue js -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    <!-- /vue js -->
-    <script src="js/main.js"></script>
 </body>
+
+
+<!-- axios -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<!-- axios -->
+<!-- browser -->
+<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+<!-- browser -->
+<!-- vue js -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<!-- /vue js -->
+<script src="js/main.js"></script>
+</body>
+
 </html>
