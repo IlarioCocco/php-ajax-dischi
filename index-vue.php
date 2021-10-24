@@ -33,6 +33,7 @@
                     <h3 class="titolo">{{todo.title}}</h3>
                     <p>{{todo.author}}</p>
                     <p>{{todo.year}}</p>
+                    
                     <p class="genre">{{todo.genre}}</p>
                 </div>
             </container>
