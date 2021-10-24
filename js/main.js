@@ -14,10 +14,10 @@ const app = new Vue({
         })
     },
     methods: {
-            genreMusicSelected() {
+            genreMusic() {
                 axios.get("http://localhost/php-ajax-dischi/api/index.php", {
                 params: {
-                    "genre": this.genreMusic
+                    "genre": this.genreSelected
                 }
             })
             .then((response) => {

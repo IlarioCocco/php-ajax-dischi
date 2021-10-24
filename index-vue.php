@@ -28,8 +28,8 @@
         </header>
         <main>
             <container class="box">
-                <div class="imaginAlbum" v-for="(todo, index) in database" :key="index">
-                    <img class="album" src="" alt="">
+                <div class="imaginiAlbum" v-for="(todo, index) in database" :key="index">
+                    <img class="album"  v-bind:src="todo.poster" alt="foto album">
                     <h3 class="titolo">{{todo.title}}</h3>
                     <p>{{todo.author}}</p>
                     <p>{{todo.year}}</p>
