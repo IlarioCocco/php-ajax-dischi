@@ -18,10 +18,10 @@
                 <img class="logo" src="./img/spotify-logo.png" alt="logo">
                 <select name="genre" v-model="genreSelected"  @change="genreMusic">
                     <option value="">All</option>
-                    <option value="R">Rock</option>
-                    <option value="P">Pop</option>
-                    <option value="M">Metal</option>
-                    <option value="J">Jazz</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Pop">Pop</option>
+                    <option value="Metal">Metal</option>
+                    <option value="Jazz">Jazz</option>
                 </select>
             </div>
 
@@ -33,7 +33,6 @@
                     <h3 class="titolo">{{todo.title}}</h3>
                     <p>{{todo.author}}</p>
                     <p>{{todo.year}}</p>
-                    
                     <p class="genre">{{todo.genre}}</p>
                 </div>
             </container>
