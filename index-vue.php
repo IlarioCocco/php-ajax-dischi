@@ -16,20 +16,23 @@
         <header>
             <div class="select">
                 <img class="logo" src="./img/spotify-logo.png" alt="logo">
-                <select name="genre" v-model="genreSelected"  @change="genreMusic">
-                    <option value="">All</option>
-                    <option value="Rock">Rock</option>
-                    <option value="Pop">Pop</option>
-                    <option value="Metal">Metal</option>
-                    <option value="Jazz">Jazz</option>
-                </select>
+                <div class="select">
+                    <h5 class="selectMusic">Seleziona Genere</h5>
+                    <select name="genre" v-model="genreSelected" @change="genreMusic">
+                        <option value="">All</option>
+                        <option value="Rock">Rock</option>
+                        <option value="Pop">Pop</option>
+                        <option value="Metal">Metal</option>
+                        <option value="Jazz">Jazz</option>
+                    </select>
+                </div>
             </div>
 
         </header>
         <main>
             <container class="box">
                 <div class="imaginiAlbum" v-for="(todo, index) in database" :key="index">
-                    <img class="album"  v-bind:src="todo.poster" alt="foto album">
+                    <img class="album" v-bind:src="todo.poster" alt="foto album">
                     <h3 class="titolo">{{todo.title}}</h3>
                     <p>{{todo.author}}</p>
                     <p>{{todo.year}}</p>
