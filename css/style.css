@@ -35,7 +35,10 @@ header{
     justify-content: space-between;
     padding-bottom: 4px;
     margin-right: 10px;
-    
+}
+
+.spotify {
+    color: rgb(92, 194, 97);
 }
 
 .genre {
