@@ -14,8 +14,11 @@ if( !empty($_GET["genre"])) {
         }
     }
     echo json_encode($databaseFiltered); 
+
 } else {
+
     echo json_encode($database); 
+    
 }
 
 ?>

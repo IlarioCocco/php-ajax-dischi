@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 /* common */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -16,17 +15,10 @@ p {
     font-weight: bold;
 }
 
-.select {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 15px;
-    border: none;
-}
-
 
 /* header section */
 header{
-    padding: 3px;
+    padding: 4px;
     background-color: #2e3a46;
     position: fixed;
     width: 100%;
@@ -35,6 +27,15 @@ header{
 
 .logo {
     width: 40px;
+}
+
+.select {
+    align-items: center;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4px;
+    margin-right: 10px;
 }
 
 

@@ -26,14 +26,14 @@
             </div>
 
         </header>
-        <main class="genre">
+        <main>
             <container class="box">
                 <div class="imaginAlbum" v-for="(todo, index) in database" :key="index">
                     <img class="album" src="" alt="">
-                    <h3>{{todo.title}}</h3>
+                    <h3 class="titolo">{{todo.title}}</h3>
                     <p>{{todo.author}}</p>
                     <p>{{todo.year}}</p>
-                    <p>{{todo.genre}}</p>
+                    <p class="genre">{{todo.genre}}</p>
                 </div>
             </container>
         </main>
