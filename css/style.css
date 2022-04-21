@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* common */
@@ -18,14 +18,19 @@ p {
 
 /* header section */
 header{
-    padding: 4px;
+    padding: 10px;
     background-color: #2e3a46;
     position: fixed;
     width: 100%;
+    position: fixed;
+    top: 0px;
+    margin: auto;
+    z-index: 1;
+    /* border: 1px solid rgb(0, 255, 98); */
 }
 
 .logo {
-    width: 40px;
+    width: 70px;
 }
 
 .select {
@@ -53,47 +58,46 @@ header{
     font-size: 15px;
     padding-right: 20px;
     font-weight: lighter;
-
 }
 
 
 /* main section */
 main {
-     background-color: #1e2d3b;
+    background-color: #1e2d3b;
+    padding: 50px 0px;
 }
 
 .box {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #1e2d3b;
-    padding-top: 35px;
-    height: 100vh;
-    max-width: 70%;
-    margin: 0 auto;
+    background-color: #1e2d3b00;
+    max-width: 65%;
+    margin: auto;
+    padding: 40px 0px;
     /* border: 1px solid rgb(255, 0, 0); */
+    
 }
 
 .imaginiAlbum {
     text-align: center;
-    width: calc(20% - 40px);
+    width: calc(20% - 20px);
     background: #2e3a46;
-    margin: 15px;
-    padding: 13px;
-    height: 45%;
+    margin: 10px 10px 5px 5px;
+    padding: 10px;
 }
 
 .album {
-    width: 100%;
+  max-width: 100%;
 }
 
 .titolo {
-    padding: 5px;
+    padding: 10px 0px;
     color: white;
     text-transform: uppercase;
-    font-size: 11px;
-    max-width: 100px;
-    margin:0 auto;
+    font-size: 13px;
+    width: 100px;
+    margin: auto;
 }
 
 
