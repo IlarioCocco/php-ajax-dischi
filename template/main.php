@@ -1,5 +1,5 @@
  <main>
-     <container class="box">
+     <div class="box">
          <?php foreach ($database as $valore) { ?>
              <!-- <p><?="{$valore["title"]} {$valore["author"]} {$valore["year"]} {$valore["poster"]}"; ?></p> -->
              <div class="imaginiAlbum">
@@ -10,5 +10,5 @@
                  <p class="genre"><?="{$valore["genre"]}" ?></p>
              </div>
          <?php } ?>
-     </container>
+     </div>
  </main>

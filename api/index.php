@@ -1,24 +1,23 @@
 <?php
+
 require __DIR__ . "/../database.php";
-header("Content-Type: application/json");
+//var_dump(($database));
+//header("Content-Type: application/json");
+header('Access-Control-Allow-Origin: *');
 
 if( !empty($_GET["genre"])) {
     $genre = $_GET["genre"];
 
-    $databaseFiltered = [];
+    $filtro = [];
 
-    foreach($database as $database) {
-        if($genre == $database["genre"]) {
-
-            $databaseFiltered[] = $database;
+    foreach($database as $key) {
+        if($genre == $key["genre"]) {
+        $filtro[] = $key;
         }
     }
-    echo json_encode($databaseFiltered); 
-
+    echo json_encode($filtro);
 } else {
-
     echo json_encode($database); 
-    
 }
 
 ?>

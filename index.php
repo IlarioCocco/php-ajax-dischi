@@ -12,7 +12,9 @@ require __DIR__ . "/database.php";
 
 
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
+
+</html>
 
 <head>
     <meta charset="UTF-8">

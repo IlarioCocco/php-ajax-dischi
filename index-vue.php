@@ -16,10 +16,10 @@
         <header>
             <div class="select">
                 <img class="logo" src="./img/spotify-logo.png" alt="logo">
-                <h3 class="spotify">Spotify</h3>
+                <h3 class="spotify">spotify</h3>
                 <div class="select">
-                    <p class="selectMusic">Seleziona Genere</p>
-                    <select name="genre" v-model="genreSelected" @change="genreMusic">
+                    <p class="selectMusic">Genere</p>
+                    <select class="selectMusic" name="genre" v-model="genreSelected" @change="genreMusic">
                         <option value="">All</option>
                         <option value="Rock">Rock</option>
                         <option value="Pop">Pop</option>
@@ -28,10 +28,10 @@
                     </select>
                 </div>
             </div>
-
         </header>
+
         <main>
-            <container class="box">
+            <div class="box">
                 <div class="imaginiAlbum" v-for="(todo, index) in database" :key="index">
                     <img class="album" v-bind:src="todo.poster" alt="foto album">
                     <h3 class="titolo">{{todo.title}}</h3>
@@ -39,22 +39,22 @@
                     <p>{{todo.year}}</p>
                     <p class="genre">{{todo.genre}}</p>
                 </div>
-            </container>
+            </div>
         </main>
     </div>
-</body>
 
-
-<!-- axios -->
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<!-- axios -->
-<!-- browser -->
-<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
-<!-- browser -->
-<!-- vue js -->
-<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-<!-- /vue js -->
-<script src="js/main.js"></script>
+    <!-- vue js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <!-- /vue js -->
+    <!-- axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- axios -->
+    <!-- browser -->
+    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+    <!-- browser -->
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <!-- main js -->
 </body>
 
 </html>

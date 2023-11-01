@@ -2,7 +2,9 @@
 $database= [
 
     [
-        "poster" => "https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg",
+        "poster" =>
+        "https://img.discogs.com/vknPDdrqRbT92pNRX0W4I5N91jg=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1246953-1448927086-6590.jpeg.jpg", 
+        //"https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg",
         "title" => "New Jersey",
         "author" => "Bon Jovi",
         "genre" => "Rock",
@@ -23,7 +25,9 @@ $database= [
         "year" => "1993"
     ],
     [
-        "poster" => "https://cdn2.jazztimes.com/2018/05/SteveGadd-800x723.jpg",
+        "poster" =>
+        "https://images-na.ssl-images-amazon.com/images/I/41JD3CW65HL.jpg", 
+        //"https://cdn2.jazztimes.com/2018/05/SteveGadd-800x723.jpg",
         "title" => "Steve Gadd Band",
         "author" => "Steve Gadd Band",
         "genre" => "Jazz",
